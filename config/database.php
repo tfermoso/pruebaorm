@@ -1,5 +1,6 @@
+<?php
 // config/database.php
-require_once __DIR__ .. '/config.php';
+require_once __DIR__ .'/../config.php';
 class Database {
     public static function connect() {
         return new PDO(
